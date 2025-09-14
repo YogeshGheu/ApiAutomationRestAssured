@@ -1,0 +1,963 @@
+11:53:49:310 [main] INFO  com.api.listeners.TestListener - Test Suite Started !!!
+11:53:49:318 [main] INFO  com.api.listeners.TestListener - Test is started - loginTest
+11:53:49:318 [main] INFO  com.api.listeners.TestListener - Description: verify if login api is working
+11:53:50:687 [main] INFO  com.api.listeners.TestListener - Test is successful - loginTest
+11:53:50:687 [main] INFO  com.api.listeners.TestListener - Test Suite Completed !!!
+14:05:56:789 [main] INFO  com.api.listeners.TestListener - Test Suite Started !!!
+14:05:56:801 [main] INFO  com.api.listeners.TestListener - Test is started - loginTest
+14:05:56:801 [main] INFO  com.api.listeners.TestListener - Description: verify if login api is working
+14:05:57:078 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:05:57:078 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+14:05:57:078 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+14:05:58:612 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:05:58:612 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 08:35:58 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:05:58:612 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@707e4fe4
+14:05:58:632 [main] INFO  com.api.listeners.TestListener - Test is successful - loginTest
+14:05:58:633 [main] INFO  com.api.listeners.TestListener - Test Suite Completed !!!
+14:58:24:325 [main] INFO  com.api.listeners.TestListener - Test Suite Started !!!
+14:58:24:334 [main] INFO  com.api.listeners.TestListener - Test is started - testGetProfile
+14:58:24:334 [main] INFO  com.api.listeners.TestListener - Description: 
+14:58:24:630 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:24:631 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+14:58:24:631 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+14:58:26:511 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:58:26:511 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:28:26 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:58:26:511 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@3d620a1
+14:58:26:535 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:26:535 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjEwNiwiZXhwIjoxNzU3ODQ1NzA2fQ.ERfmXW4Opq1AM1qLlLnwYvrK_5K7UTT2wzvAYAvJ0W0
+Accept=*/*
+14:58:26:536 [main] ERROR com.api.listeners.TestListener - Test is failed - testGetProfile
+14:58:26:539 [main] INFO  com.api.listeners.TestListener - Test is started - loginTest
+14:58:26:539 [main] INFO  com.api.listeners.TestListener - Description: verify if login api is working
+14:58:26:544 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:26:544 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+14:58:26:544 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+14:58:26:901 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:58:26:901 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:28:26 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:58:26:902 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@1c8f6c66
+14:58:26:908 [main] INFO  com.api.listeners.TestListener - Test is successful - loginTest
+14:58:26:910 [main] INFO  com.api.listeners.TestListener - Test is started - testUpdateProfile
+14:58:26:910 [main] INFO  com.api.listeners.TestListener - Description: 
+14:58:26:917 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:26:918 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+14:58:26:918 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+14:58:27:285 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:58:27:286 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:28:27 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:58:27:286 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@7dee835
+14:58:27:301 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:27:302 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjEwNywiZXhwIjoxNzU3ODQ1NzA3fQ.3PDZmVupWtQ1-7SYVHRyZ1gSBzbJXI7-vue3s8Sbtqs
+Accept=*/*
+Content-Type=application/json
+14:58:27:302 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565","email":"ALOK1234@yahoo.com"}
+14:58:28:013 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:58:28:013 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:28:27 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:58:28:013 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@3c25cfe1
+14:58:28:029 [main] INFO  com.api.listeners.TestListener - Test is successful - testUpdateProfile
+14:58:28:029 [main] INFO  com.api.listeners.TestListener - Test Suite Completed !!!
+14:58:48:106 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:48:106 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+14:58:48:106 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+14:58:49:296 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:58:49:297 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:28:49 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:58:49:297 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@5eb5da12
+14:58:49:318 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:58:49:319 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjEyOSwiZXhwIjoxNzU3ODQ1NzI5fQ.WPQMfALrkPxRYZUnu5Bd7DCW86dHGI6GeiAKLHHpbN8
+Accept=*/*
+14:59:48:263 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:59:48:264 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+14:59:48:264 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+14:59:48:795 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+14:59:48:795 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:29:48 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+14:59:48:795 [main] INFO  com.api.filters.ApiFilters - Response Body : io.restassured.internal.RestAssuredResponseImpl@5e26f1ed
+14:59:48:816 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+14:59:48:816 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjE4OCwiZXhwIjoxNzU3ODQ1Nzg4fQ.CrSdUOTH2cGx_PeYIBxqxefzhssi6VriZ8JIkdjftr0
+Accept=*/*
+15:00:31:323 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:00:31:324 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:00:31:324 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:00:31:986 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:00:31:986 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:30:31 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:00:31:989 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjIzMSwiZXhwIjoxNzU3ODQ1ODMxfQ.WU4gfKj5fFBTFehE-dtpjvVJvHgHHjIEX3cWw8ud3AU","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:00:32:010 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:00:32:010 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjIzMSwiZXhwIjoxNzU3ODQ1ODMxfQ.WU4gfKj5fFBTFehE-dtpjvVJvHgHHjIEX3cWw8ud3AU
+Accept=*/*
+15:00:36:755 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:00:36:756 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:00:36:756 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:00:41:769 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:00:41:769 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:30:41 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:00:41:791 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:00:41:791 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjI0MSwiZXhwIjoxNzU3ODQ1ODQxfQ.CrIN7Ugzi1FHUunoigvoHUhHtizMzCliIc4e9pbZMuA
+Accept=*/*
+15:01:26:027 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:01:26:027 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:01:26:028 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:01:26:503 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:01:26:503 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:31:26 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:01:26:506 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjI4NiwiZXhwIjoxNzU3ODQ1ODg2fQ.1boj5-fODDrbhT6cB4PtzT0j2xmjKFc9CjwtE2Fm6mk","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:01:26:526 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:01:26:526 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjI4NiwiZXhwIjoxNzU3ODQ1ODg2fQ.1boj5-fODDrbhT6cB4PtzT0j2xmjKFc9CjwtE2Fm6mk
+Accept=*/*
+15:03:23:493 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:03:23:494 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:03:23:494 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:03:23:916 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:03:23:916 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:33:23 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:03:23:918 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjQwMywiZXhwIjoxNzU3ODQ2MDAzfQ.ey4y6uC6gA-5UdoQ2vYR_xK2i0e-EQQGvQMCtsBQBh8","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:03:23:937 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:03:23:937 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjQwMywiZXhwIjoxNzU3ODQ2MDAzfQ.ey4y6uC6gA-5UdoQ2vYR_xK2i0e-EQQGvQMCtsBQBh8
+Accept=*/*
+15:07:10:005 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:07:10:006 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:07:10:006 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:07:10:430 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:07:10:430 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjYzMCwiZXhwIjoxNzU3ODQ2MjMwfQ.TB1QWGEHp78fVoogdXIVjWvtQ8Zj5XYGdKb2-5GDCrc
+Accept=*/*
+15:07:23:725 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:07:23:726 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:07:23:726 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:07:25:310 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:07:25:310 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjY0NSwiZXhwIjoxNzU3ODQ2MjQ1fQ.ioxAU4k8w7G4akJQ1ETgCYnTzJLd2P03GEVPQfcBlqo
+Accept=*/*
+15:09:04:255 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:09:04:255 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:09:04:255 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:09:04:705 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:09:04:705 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:39:04 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:09:04:707 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjc0NCwiZXhwIjoxNzU3ODQ2MzQ0fQ.EfPni9vfxn23pdzS50muFURMqHXFcLmtQyVOOjfRth0","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:09:04:726 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:09:04:726 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjc0NCwiZXhwIjoxNzU3ODQ2MzQ0fQ.EfPni9vfxn23pdzS50muFURMqHXFcLmtQyVOOjfRth0
+Accept=*/*
+15:10:22:250 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:22:251 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:10:22:251 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:10:22:781 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:22:781 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:22 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:22:784 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgyMiwiZXhwIjoxNzU3ODQ2NDIyfQ.zDLF-ziO0y-KKNL2XVcNkavUgX3gb_dX0X1ceT-HPA4","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:10:22:805 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:22:805 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgyMiwiZXhwIjoxNzU3ODQ2NDIyfQ.zDLF-ziO0y-KKNL2XVcNkavUgX3gb_dX0X1ceT-HPA4
+Accept=*/*
+15:10:22:805 [main] INFO  com.api.filters.ApiFilters - Request Payload : <empty>
+15:10:23:039 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:23:039 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:23 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:23:039 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:10:33:789 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:33:790 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:10:33:790 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:10:34:182 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:34:182 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:34 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:34:185 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzNCwiZXhwIjoxNzU3ODQ2NDM0fQ.RL4MivRNM_WvFDvfqENXebMhh9nsmhi-mPjuh1HjVwQ","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:10:34:201 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:34:201 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzNCwiZXhwIjoxNzU3ODQ2NDM0fQ.RL4MivRNM_WvFDvfqENXebMhh9nsmhi-mPjuh1HjVwQ
+Accept=*/*
+15:10:34:202 [main] INFO  com.api.filters.ApiFilters - Request Payload : <empty>
+15:10:34:472 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:34:472 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:34 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:34:472 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:10:36:693 [main] INFO  com.api.listeners.TestListener - Test Suite Started !!!
+15:10:36:705 [main] INFO  com.api.listeners.TestListener - Test is started - testGetProfile
+15:10:36:705 [main] INFO  com.api.listeners.TestListener - Description: 
+15:10:36:980 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:36:980 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:10:36:980 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:10:37:413 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:37:413 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:37 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:37:416 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzNywiZXhwIjoxNzU3ODQ2NDM3fQ.9HvepOHTbNGblEAvhT-YaWCjATMsDglKZepfx1UEfAY","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:10:37:432 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:37:433 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzNywiZXhwIjoxNzU3ODQ2NDM3fQ.9HvepOHTbNGblEAvhT-YaWCjATMsDglKZepfx1UEfAY
+Accept=*/*
+15:10:37:433 [main] INFO  com.api.filters.ApiFilters - Request Payload : <empty>
+15:10:37:659 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:37:659 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:37 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:37:659 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:10:37:661 [main] INFO  com.api.listeners.TestListener - Test is successful - testGetProfile
+15:10:37:663 [main] INFO  com.api.listeners.TestListener - Test is started - loginTest
+15:10:37:663 [main] INFO  com.api.listeners.TestListener - Description: verify if login api is working
+15:10:37:668 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:37:668 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:10:37:669 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:10:38:147 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:38:148 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:38 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:38:149 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzOCwiZXhwIjoxNzU3ODQ2NDM4fQ.lmajBUmCIBsa9OyfC5i0Um6IKJBJ-PZuhFos2lhbxEA","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:10:38:155 [main] INFO  com.api.listeners.TestListener - Test is successful - loginTest
+15:10:38:156 [main] INFO  com.api.listeners.TestListener - Test is started - testUpdateProfile
+15:10:38:156 [main] INFO  com.api.listeners.TestListener - Description: 
+15:10:38:165 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:38:165 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:10:38:165 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:10:38:585 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:38:586 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:38 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:38:587 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzOCwiZXhwIjoxNzU3ODQ2NDM4fQ.lmajBUmCIBsa9OyfC5i0Um6IKJBJ-PZuhFos2lhbxEA","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:10:38:599 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:10:38:600 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MjgzOCwiZXhwIjoxNzU3ODQ2NDM4fQ.lmajBUmCIBsa9OyfC5i0Um6IKJBJ-PZuhFos2lhbxEA
+Accept=*/*
+Content-Type=application/json
+15:10:38:600 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565","email":"ALOK1234@yahoo.com"}
+15:10:38:975 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:10:38:975 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:40:38 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:10:38:976 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:10:38:993 [main] INFO  com.api.listeners.TestListener - Test is successful - testUpdateProfile
+15:10:38:994 [main] INFO  com.api.listeners.TestListener - Test Suite Completed !!!
+15:11:31:167 [main] INFO  com.api.listeners.TestListener - Test Suite Started !!!
+15:11:31:179 [main] INFO  com.api.listeners.TestListener - Test is started - testGetProfile
+15:11:31:179 [main] INFO  com.api.listeners.TestListener - Description: 
+15:11:31:481 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:11:31:481 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:11:31:481 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:11:32:186 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:11:32:187 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:41:32 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:11:32:190 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjg5MiwiZXhwIjoxNzU3ODQ2NDkyfQ.QuGzebqSAr_VrkeSHuQyi0e7tOPniyYnvyCJlyyPkhk","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:11:32:214 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:11:32:215 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjg5MiwiZXhwIjoxNzU3ODQ2NDkyfQ.QuGzebqSAr_VrkeSHuQyi0e7tOPniyYnvyCJlyyPkhk
+Accept=*/*
+15:11:32:215 [main] INFO  com.api.filters.ApiFilters - Request Payload : <empty>
+15:11:32:834 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:11:32:835 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:41:32 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:11:32:836 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:11:32:839 [main] INFO  com.api.listeners.TestListener - Test is successful - testGetProfile
+15:11:32:846 [main] INFO  com.api.listeners.TestListener - Test is started - loginTest
+15:11:32:847 [main] INFO  com.api.listeners.TestListener - Description: verify if login api is working
+15:11:32:859 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:11:32:859 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:11:32:859 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:11:33:267 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:11:33:268 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:41:33 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:11:33:268 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjg5MywiZXhwIjoxNzU3ODQ2NDkzfQ.dlVR0oTBXvihgow1KW5OlukfV40jD5YpjcmI1-sO9ho","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:11:33:275 [main] INFO  com.api.listeners.TestListener - Test is successful - loginTest
+15:11:33:278 [main] INFO  com.api.listeners.TestListener - Test is started - testUpdateProfile
+15:11:33:278 [main] INFO  com.api.listeners.TestListener - Description: 
+15:11:33:287 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:11:33:288 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:11:33:288 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:11:33:658 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:11:33:659 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:41:33 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:11:33:659 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjg5MywiZXhwIjoxNzU3ODQ2NDkzfQ.dlVR0oTBXvihgow1KW5OlukfV40jD5YpjcmI1-sO9ho","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:11:33:676 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:11:33:676 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0Mjg5MywiZXhwIjoxNzU3ODQ2NDkzfQ.dlVR0oTBXvihgow1KW5OlukfV40jD5YpjcmI1-sO9ho
+Accept=*/*
+Content-Type=application/json
+15:11:33:677 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565","email":"ALOK1234@yahoo.com"}
+15:11:33:972 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:11:33:973 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:41:33 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:11:33:973 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:11:33:991 [main] INFO  com.api.listeners.TestListener - Test is successful - testUpdateProfile
+15:11:33:991 [main] INFO  com.api.listeners.TestListener - Test Suite Completed !!!
+15:18:38:555 [main] INFO  com.api.listeners.TestListener - Test Suite Started !!!
+15:18:38:564 [main] INFO  com.api.listeners.TestListener - Test is started - testGetProfile
+15:18:38:564 [main] INFO  com.api.listeners.TestListener - Description: 
+15:18:38:835 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:18:38:835 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:18:38:836 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:18:39:321 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:18:39:322 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:48:39 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:18:39:325 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MzMxOSwiZXhwIjoxNzU3ODQ2OTE5fQ.W7ziWRi5qxyi1UAmbTCDvO1fdapwU9OQaK5Jei4EuFs","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:18:39:345 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:18:39:345 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MzMxOSwiZXhwIjoxNzU3ODQ2OTE5fQ.W7ziWRi5qxyi1UAmbTCDvO1fdapwU9OQaK5Jei4EuFs
+Accept=*/*
+15:18:39:345 [main] INFO  com.api.filters.ApiFilters - Request Payload : <empty>
+15:18:39:601 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:18:39:602 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:48:39 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:18:39:602 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:18:39:604 [main] INFO  com.api.listeners.TestListener - Test is successful - testGetProfile
+15:18:39:605 [main] INFO  com.api.listeners.TestListener - Test is started - loginTest
+15:18:39:605 [main] INFO  com.api.listeners.TestListener - Description: verify if login api is working
+15:18:39:610 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:18:39:610 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:18:39:610 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:18:39:904 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:18:39:905 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:48:39 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:18:39:905 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MzMxOSwiZXhwIjoxNzU3ODQ2OTE5fQ.W7ziWRi5qxyi1UAmbTCDvO1fdapwU9OQaK5Jei4EuFs","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:18:39:911 [main] INFO  com.api.listeners.TestListener - Test is successful - loginTest
+15:18:39:913 [main] INFO  com.api.listeners.TestListener - Test is started - testUpdateProfile
+15:18:39:913 [main] INFO  com.api.listeners.TestListener - Description: 
+15:18:39:922 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:18:39:922 [main] INFO  com.api.filters.ApiFilters - Request Header : Accept=*/*
+Content-Type=application/json
+15:18:39:922 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"username":"uday1234","password":"uday12345"}
+15:18:40:200 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:18:40:200 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:48:40 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:18:40:201 [main] INFO  com.api.filters.ApiFilters - Response Body : {"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MzMyMCwiZXhwIjoxNzU3ODQ2OTIwfQ.8harnIuZWOgBi71UaPKqWZcui3DQzHk9C0vhxmA46qo","type":"Bearer","id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","roles":["ROLE_USER"]}
+15:18:40:208 [main] INFO  com.api.filters.ApiFilters - Base URI : https://swift.techwithjatin.com
+15:18:40:209 [main] INFO  com.api.filters.ApiFilters - Request Header : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc1Nzg0MzMyMCwiZXhwIjoxNzU3ODQ2OTIwfQ.8harnIuZWOgBi71UaPKqWZcui3DQzHk9C0vhxmA46qo
+Accept=*/*
+Content-Type=application/json
+15:18:40:209 [main] INFO  com.api.filters.ApiFilters - Request Payload : {"firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565","email":"ALOK1234@yahoo.com"}
+15:18:40:704 [main] INFO  com.api.filters.ApiFilters - Status Code : 200
+15:18:40:704 [main] INFO  com.api.filters.ApiFilters - Response Headers : Date=Sun, 14 Sep 2025 09:48:40 GMT
+Server=Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security=max-age=31536000; includeSubDomains
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Vary=Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Transfer-Encoding=chunked
+15:18:40:705 [main] INFO  com.api.filters.ApiFilters - Response Body : {"id":1,"username":"uday1234","email":"ALOK1234@yahoo.com","firstName":"Yogesh","lastName":"Yogesh","mobileNumber":"4340607565"}
+15:18:40:713 [main] INFO  com.api.listeners.TestListener - Test is successful - testUpdateProfile
+15:18:40:721 [main] INFO  com.api.listeners.TestListener - Test Suite Completed !!!
